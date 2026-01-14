@@ -2,9 +2,11 @@
     --cyan-300: #8FE3F9;
     --cyan-600-opacity: #4D96A9E1;
     --cyan-600: #4D96A9;
+    --cyan-hover: #71C0D4;
 
     --purple-300: #D9B8FF;
     --purple-600: #855FB1;
+    --purple-hover: #B18BDD;
 
     --slate-300: #D1D1DF;
     --slate-600: #87879D;
@@ -119,6 +121,10 @@ header {
     height: 5.6rem;
 }
 
+.buttons-box__download-button:hover{
+    background-color: var(--cyan-hover);
+}
+
 .buttons-box__download-button span {
     color: var(--cyan-300);
     margin-left: 0.4rem;
@@ -130,6 +136,10 @@ header {
     color: var(--white);
     width: 16.1rem;
     height: 5.6rem;
+}
+
+.buttons-box__question-button:hover{
+    background-color: var(--purple-hover);
 }
 
 .section-01 {
@@ -233,7 +243,11 @@ header {
     height: 5.6rem;
 }
 
+.section-02__button:hover{
+    background-color: var(--purple-300);
+}
+
 .section-02__button span {
-    color: var(--purple-300);
+    color: var(--purple-hover);
     margin-left: 0.4rem;
 }
