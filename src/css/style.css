@@ -1,5 +1,6 @@
 :root {
     --cyan-300: #8FE3F9;
+    --cyan-600-opacity: #4D96A9E1;
     --cyan-600: #4D96A9;
 
     --purple-300: #D9B8FF;
@@ -182,4 +183,57 @@ header {
     font-size: 1.6rem;
     color: var(--slate-600);
     line-height: 150%;
+}
+
+
+.section-02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(var(--cyan-600-opacity), var(--cyan-600-opacity)), url("../images/mobile/mobile-image-footer.jpg") no-repeat;
+    background-size: cover;
+    margin-top: 17.2rem;
+    color: var(--white);
+    text-align: center;
+}
+
+.separation-icon-02{
+    margin-top: -10.8rem;
+    position: absolute;
+}
+
+.section-02-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+    margin: 6.4rem 3.2rem;
+}
+
+.section-02-article__title{
+    font-size: 3.2rem;
+}
+
+.section-02-article__text{
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+
+.section-02 button {
+    padding: 1.6rem 4rem;
+    border-radius: 2.9rem;
+    border: none;
+    cursor: pointer;
+}
+
+.section-02__button{
+    background-color: var(--purple-600);
+    color: var(--white);
+    width: 19.3rem;
+    height: 5.6rem;
+}
+
+.section-02__button span {
+    color: var(--purple-300);
+    margin-left: 0.4rem;
 }
