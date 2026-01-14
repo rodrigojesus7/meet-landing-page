@@ -58,12 +58,23 @@ body {
 }
 
 
-header{
+header {
     margin-top: 4.8rem;
     margin-bottom: 6.4rem;
 }
 
+.people-icons {
+    display: flex;
+    justify-content: space-between;
+}
 
+.left-image {
+    content: url("../images/mobile/faces-left.png");
+}
+
+.right-image {
+    content: url("../images/mobile/faces-right.png");
+}
 
 
 .gallery {
