@@ -131,7 +131,26 @@ header {
     height: 5.6rem;
 }
 
+.section-01 {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6.4rem 3.2rem;
+}
+
+.separation-icon-01{
+    margin-bottom: 6.4rem;
+}
 
 .gallery {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.6rem;
+}
+
+.gallery img{
+    width: 100%;
+    border-radius: 0.8rem;
 }
