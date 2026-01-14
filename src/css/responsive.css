@@ -63,13 +63,112 @@
         background-size: cover;
     }
 
-    .section-02-article__text{
+    .section-02-article__text {
         width: 50.4rem;
     }
 
 
+}
 
 
 
 
+@media (min-width: 90rem) {
+
+
+    .left-image {
+        content: none;
+    }
+
+    .middle-image {
+        content: none;
+    }
+
+    .right-image {
+        content: none;
+    }
+
+    .desktop-left-image {
+        content: url("../images/desktop/image-hero-left.png");
+        height: 100%;
+    }
+
+    .desktop-right-image {
+        content: url("../images/desktop/image-hero-right.png");
+        height: 100%;
+        align-self: flex-end;
+    }
+
+    .desktop-hero {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hero {
+        margin-left: 3.2rem;
+        margin-right: 3.2rem;
+    }
+
+    .hero__title {
+        width: 44.83rem;
+    }
+
+    .hero__text {
+        font-size: 1.8rem;
+        width: 44.3rem;
+    }
+
+    header {
+        margin-top: 8rem;
+        margin-bottom: 0;
+    }
+
+    .section-01 {
+        margin-left: 16rem;
+        margin-right: 16rem;
+    }
+
+    .gallery {
+        gap: 3.2rem;
+    }
+
+    .section-01-article__highlight-text {
+        font-size: 1.6rem
+    }
+
+    .section-01-article__title {
+        font-size: 4rem;
+    }
+
+    .section-01-article__text {
+        font-size: 1.8rem;
+        width: 54.81rem;
+    }
+
+    .section-02 {
+        background: linear-gradient(var(--cyan-600-opacity), var(--cyan-600-opacity)), url("../images/desktop/image-footer.jpg") no-repeat;
+        background-size: cover;
+    }
+
+    .section-02-article {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 15rem;
+        margin-bottom: 11.2rem;
+        margin-top: 11.2rem;
+    }
+
+    .section-02-article__title {
+        font-size: 4rem;
+        width: 34rem;
+        text-align: left;
+    }
+
+    .section-02-article__text {
+        font-size: 1.8rem;
+        width: 33.5rem;
+        text-align: left;
+    }
 }
